@@ -80,6 +80,7 @@ section {
     float: left;
     margin-right: 15px;
     border-radius: 6px;
+    border: 2px solid #897859;
 }
 
 /* Aplicação do Float para as imagens direita*/
@@ -87,6 +88,7 @@ section {
     float: right;
     margin-left: 15px;
     border-radius: 6px;
+    border: 2px solid #897859;
 }
 
 /* Formatação que limpa o Float */
