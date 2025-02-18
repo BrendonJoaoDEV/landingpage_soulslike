@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Define o fundo de todo o site */
+/* Define o fundo e as fontes de todo o site */
 body {
     background-color: #100f0f;
     font-family: "Roboto", "PT Sans";
@@ -75,7 +75,7 @@ section {
     color: #db3838;
 }
 
-/* Aplicação do Float para aa imagens esquerda*/
+/* Aplicação do Float para as imagens esquerda*/
 .float-left img {
     float: left;
     margin-right: 15px;
