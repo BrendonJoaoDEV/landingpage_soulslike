@@ -17,7 +17,6 @@ header {
     padding: 20px;
     margin: 20px 50px;
     border-radius: 10px;
-    border-bottom: 6px solid #897859;
 }
 
 /* Formata o título */
@@ -31,6 +30,7 @@ header h1 {
 nav {
     background-color: #333333;
     margin: 20px 50px;
+    padding: 10px 0;
     border-radius: 6px;
     display: flex;
     flex-direction: row;
@@ -38,7 +38,7 @@ nav {
 }
 
 /* Formata os botões da barra de navegação */
-.botao-navegacao {
+.botao {
     background-color: #897859;
     border-radius: 6px;
     margin: 10px 50px;
@@ -49,14 +49,15 @@ nav {
 .link{
     color: #ffffff;
     text-decoration: none;
-
+    margin: 10px 50px;
 }
 
 /* Formata o main: onde está o conteúdo do site */
 main {
     background-color: #100f0f;
     color: white;
-    margin: 20px 50px;
+    margin: auto;
+    width: 70%;
 }
 
 /* Formatação que separa as seções dentro do site */
@@ -80,7 +81,6 @@ section {
     float: left;
     margin-right: 15px;
     border-radius: 6px;
-    border: 2px solid #897859;
 }
 
 /* Aplicação do Float para as imagens direita*/
@@ -88,7 +88,6 @@ section {
     float: right;
     margin-left: 15px;
     border-radius: 6px;
-    border: 2px solid #897859;
 }
 
 /* Formatação que limpa o Float */
@@ -103,4 +102,11 @@ footer {
     color: #db3838;
     margin: 20px 50px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer article {
+    padding: 20px;
 }
