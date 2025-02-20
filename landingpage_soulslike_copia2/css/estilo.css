@@ -1,0 +1,120 @@
+/* Zera as formatações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o fundo e as fontes de todo o site */
+body {
+    background-color: #100f0f;
+    font-family: "Roboto", "PT Sans";
+    font-size: 1.3rem;
+}
+
+/* Formatação do cabeçalho */
+header {
+    background-color: #333333;
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+/* Formata o título */
+header h1 {
+    color: #db3838;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Formata a barra de navegação */
+nav {
+    background-color: #333333;
+    margin: 20px 50px;
+    padding: 10px 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* Formata os links */
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+/* Formata os botões da barra de navegação */
+.link:hover {
+    background-color: #897859;
+    border-radius: 6px;
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+/* Formata o main: onde está o conteúdo do site */
+main {
+    background-color: #100f0f;
+    color: white;
+    margin: auto;
+    width: 70%;
+}
+
+/* Formatação das seções*/
+section {
+    background-color: #100f0f;
+    margin: 40px 0;
+}
+
+article {
+    display: flex;
+    gap: 20px;
+}
+
+.texto-coluna p {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    margin-bottom:70px;
+}
+
+/* Formatação dos subtítulos */
+.subtitulo {
+    color: #F8D63E;
+    font-size: 1.7rem;
+}
+
+/* Aplicação do Float para as imagens esquerda*/
+.float-left img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+
+/* Aplicação do Float para as imagens direita*/
+.float-right img {
+    float: right;
+    margin-left: 15px;
+    border-radius: 6px;
+}
+
+/* Formatação que limpa o Float */
+.clear {
+    clear: both;
+}
+
+/* Formatação do rodapé do site */
+footer {
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
