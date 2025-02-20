@@ -74,14 +74,16 @@ article {
     gap: 20px;
 }
 
-article p {
+.texto-coluna p {
+    display: flex;
+    gap: 20px;
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom:70px;
 }
 
 /* Formatação dos subtítulos */
 .subtitulo {
-    color: #db3838;
+    color: #F8D63E;
     font-size: 1.7rem;
 }
 
