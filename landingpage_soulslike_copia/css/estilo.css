@@ -20,6 +20,11 @@ header {
     border-radius: 10px;
 }
 
+/* Formatação do Banner */
+.banner {
+    width: 100%;
+}
+
 /* Formata o título */
 header h1 {
     color: #db3838;
