@@ -69,11 +69,19 @@ section {
     margin: 40px 0;
 }
 
+/* Formatação dos artigos */
 article {
     display: flex;
     gap: 20px;
 }
 
+/* Formatação dos paragráfos dos artigos */
+article p {
+    width: 50%;
+    margin-bottom:70px;
+}
+
+/* Formatação das colunas de texto */
 .texto-coluna p {
     display: flex;
     gap: 20px;
