@@ -16,8 +16,6 @@ body {
 header {
     background-color: #333333;
     padding: 20px;
-    margin: 20px 50px;
-    border-radius: 10px;
 }
 
 /* Formatação do Banner */
@@ -36,9 +34,7 @@ header h1 {
 /* Formata a barra de navegação */
 nav {
     background-color: #333333;
-    margin: 20px 50px;
     padding: 10px 0;
-    border-radius: 6px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -111,8 +107,20 @@ article p {
     border-radius: 6px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+
 /* Aplicação do Float para as imagens direita*/
 .float-right img {
+    float: right;
+    margin-left: 15px;
+    border-radius: 6px;
+}
+
+.float-right {
     float: right;
     margin-left: 15px;
     border-radius: 6px;
