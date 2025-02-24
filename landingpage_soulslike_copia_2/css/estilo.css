@@ -16,14 +16,18 @@ body {
 header {
     background-color: #333333;
     padding: 20px;
-    margin: 20px 50px;
-    border-radius: 10px;
+}
+
+/* Formatação do Banner */
+.banner {
+    width: 100%;
 }
 
 /* Formata o título */
 header h1 {
     color: #db3838;
     text-align: center;
+    font-family: "Roboto", sans-serif;
     font-size: 45px;
 }
 
@@ -31,18 +35,12 @@ header h1 {
 nav {
     background-color: #333333;
     padding: 10px 0;
-    border-radius: 6px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: "PT Sans", sans-serif;
 }
 
-.fixo {
-    position: fixed;
-    left: 50px;
-    right: 50px;
-    top: 50px;
-}
 
 /* Formata os links */
 .link {
@@ -74,12 +72,21 @@ section {
     margin: 40px 0;
 }
 
+/* Formatação dos artigos */
 article {
     display: flex;
     gap: 20px;
 }
 
+/* Formatação dos paragráfos dos artigos */
+article p {
+    font-family: "PT Sans";
+    margin-bottom: 70px;
+}
+
+/* Formatação das colunas de texto */
 .texto-coluna p {
+    font-family: "PT Sans";
     display: flex;
     gap: 20px;
     width: 50%;
@@ -89,6 +96,7 @@ article {
 /* Formatação dos subtítulos */
 .subtitulo {
     color: #F8D63E;
+    font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
 }
 
@@ -99,8 +107,20 @@ article {
     border-radius: 6px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+
 /* Aplicação do Float para as imagens direita*/
 .float-right img {
+    float: right;
+    margin-left: 15px;
+    border-radius: 6px;
+}
+
+.float-right {
     float: right;
     margin-left: 15px;
     border-radius: 6px;
@@ -115,6 +135,7 @@ article {
 footer {
     background-color: #333333;
     text-align: center;
+    font-family: "PT Sans", sans-serif;
     color: #ffffff;
     padding: 20px;
     margin: 20px 50px;
